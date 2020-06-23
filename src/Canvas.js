@@ -671,7 +671,7 @@ class Canvacord {
         ctx.fill();
 
         const avatar = await Canvas.loadImage(await this.circle(avatarURL));
-        ctx.drawImage(avatar, 75, 66, 180, 180);
+        ctx.drawImage(avatar, 75, 66, 200, 200);
 
         return canvas.toBuffer();
     }
